@@ -1,0 +1,37 @@
+{
+    // Editor Settings
+    "editor.mouseWheelZoom": true,
+    "editor.multiCursorModifier": "alt", // Other options: "ctrlCmd"
+    "editor.rulers": [
+        120
+    ],
+    // Files Settings
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000, // "files.autoSave" must be "afterDelay"
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // Git Settings
+    "git.branchProtection": [
+        "master",
+        "main",
+        "stable"
+    ],
+    "git.terminalGitEditor": false,
+    // GoLang Settings
+    "go.lintOnSave": "file",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    // Window Settings
+    "window.autoDetectColorScheme": true,
+    // Workbench Settings
+    "workbench.tree.indent": 25,
+    "workbench.colorTheme": "Solarized Dark", // "window.autoDetectColorScheme" must be enabled
+    "workbench.preferredDarkColorTheme": "Solarized Dark", // "window.autoDetectColorScheme" must be enabled
+}
