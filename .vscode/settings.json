@@ -1,5 +1,6 @@
 {
     // Editor Settings
+    "editor.fontSize": 16,
     "editor.mouseWheelZoom": true,
     "editor.multiCursorModifier": "alt", // Other options: "ctrlCmd"
     "editor.rulers": [
@@ -28,10 +29,20 @@
             "source.organizeImports": true
         }
     },
+
+    "openapi.tryit.insecureSslHostnames": [
+        "localhost"
+    ], // "window.autoDetectColorScheme" must be enabled
+
     // Window Settings
     "window.autoDetectColorScheme": true,
     // Workbench Settings
     "workbench.tree.indent": 25,
     "workbench.colorTheme": "Solarized Dark", // "window.autoDetectColorScheme" must be enabled
     "workbench.preferredDarkColorTheme": "Solarized Dark", // "window.autoDetectColorScheme" must be enabled
+    "window.zoomLevel": 0,
+
+    "yaml.schemas": {
+        "kubernetes": "*.yaml"
+    }
 }
