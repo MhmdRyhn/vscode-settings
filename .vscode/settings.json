@@ -75,6 +75,11 @@
 		    "background": "red",
 		    "iconColour": "red",
 		},
+		"DEPRECATED": {
+		    "foreground": "black",
+		    "background": "red",
+		    "iconColour": "red",
+		},
 		"[ ]": {
 		    "icon": "check",
 		    "foreground": "black",
@@ -90,6 +95,7 @@
 	},
 	"todo-tree.general.tags": [
 		"BUG",
+		"DEPRECATED",
 		"HACK",
 		"FIXME",
 		"TODO",
