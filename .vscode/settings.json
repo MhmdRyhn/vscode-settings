@@ -1,6 +1,6 @@
 {
     // Editor Settings
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "editor.mouseWheelZoom": true,
     "editor.multiCursorModifier": "alt", // Other options: "ctrlCmd"
     "editor.rulers": [
@@ -107,11 +107,11 @@
 
     // Window Settings
     "window.autoDetectColorScheme": true,
+    "window.zoomLevel": -1,
     // Workbench Settings
     "workbench.tree.indent": 25,
     "workbench.colorTheme": "Solarized Dark", // "window.autoDetectColorScheme" must be enabled
     "workbench.preferredDarkColorTheme": "Solarized Dark", // "window.autoDetectColorScheme" must be enabled
-    "window.zoomLevel": 0,
 
     "yaml.schemas": {
         "kubernetes": "*.yaml"
