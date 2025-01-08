@@ -2,6 +2,7 @@
 
 ## Extensions To Be Installed
 ### Common Extensions
+- GitLens — Git supercharged
 - Shortcut Menu Bar
 - Markdown All in One
 - OpenAPI (Swagger) Editor
@@ -10,6 +11,9 @@
 ### Go
 - Go
 - Go Struct Tag Autocomplete & Generator
+
+### Python
+- Python
 
 ### PHP
 - PHP Intelephense

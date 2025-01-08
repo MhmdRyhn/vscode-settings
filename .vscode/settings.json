@@ -1,25 +1,34 @@
 {
-    // Editor Settings
+    // START: Editor
     "editor.fontSize": 14,
     "editor.mouseWheelZoom": true,
     "editor.multiCursorModifier": "alt", // Other options: "ctrlCmd"
     "editor.rulers": [
         120
     ],
-    // Files Settings
+	"editor.quickSuggestions": {
+    	"strings": true
+	},
+	// END: Editor
+
+    // START: Files
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000, // "files.autoSave" must be "afterDelay"
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    // Git Settings
+	// END: Files
+
+    // START: Git
     "git.branchProtection": [
         "master",
         "main",
         "stable"
     ],
     "git.terminalGitEditor": false,
-    // GoLang Settings
+	// END: Git
+
+    // Estension.START: GoLang
     "go.lintOnSave": "file",
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
@@ -29,13 +38,35 @@
             "source.organizeImports": true
         }
     },
+	// Estension.END: GoLang
+
+	// Estension.START: Go Struct Tag Autocomplete & Generator
+	"goStructTagAutogen.tagSuggestion": {
+		"json": {
+			"cases": ["snake"],
+			"options": ["omitempty", "-"]
+		},
+		"mapstructure": {
+			"cases": ["snake"],
+			"options": ["omitempty"]
+		},
+		"gorm": {
+			"cases": ["snake"]
+		}
+	},
+	"goStructTagAutogen.generation": {
+    	"template": "gorm:\"column:{{camel}}\""
+	},
+	"goStructTagAutogen.valueSuggestion": {
+		"json": ["omitempty"]
+	},
+	// Estension.END: Go Struct Tag Autocomplete & Generator
 
     "openapi.tryit.insecureSslHostnames": [
         "localhost"
     ], // "window.autoDetectColorScheme" must be enabled
 
-    // "Todo Tree" extension must be installed
-	// For more details, visit https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+    // Estension.START: Todo Tree
     "todo-tree.regex.regex": "(//)\\s*($TAGS).*(\\n\\s*//\\s{1,}.*)*",
     "todo-tree.highlights.defaultHighlight": {
 		"icon": "alert",
@@ -104,6 +135,7 @@
 		"[ ]",
 		"[x]"
 	],
+    // Estension.END: Todo Tree
 
     // Window Settings
     "window.autoDetectColorScheme": true,
